@@ -8,8 +8,14 @@ To set up the initial admin user in your database, follow these steps:
 
 To seed the database with an admin user, run the admin seeder.
 
+## Application URL
+
+The application's URL for the login page can be accessed via the following route:
+
+- **Login Page URL:** `/admin/login`
+
 #### Admin Credentials:
-- **url**: `https://example.com/admin/login`
+- **url*: `https://example.com/admin/login`
 - **Email**: `admin@store.com`
 - **Password**: `password`
 
