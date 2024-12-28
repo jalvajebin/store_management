@@ -9,6 +9,7 @@ To set up the initial admin user in your database, follow these steps:
 To seed the database with an admin user, run the admin seeder.
 
 #### Admin Credentials:
+- **url**: `https://example.com/admin/login`
 - **Email**: `admin@store.com`
 - **Password**: `password`
 
