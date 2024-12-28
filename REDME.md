@@ -15,7 +15,7 @@ The application's URL for the login page can be accessed via the following route
 - **Login Page URL:** `/admin/login`
 
 #### Admin Credentials:
--
+
 - **Email**: `admin@store.com`
 - **Password**: `password`
 
