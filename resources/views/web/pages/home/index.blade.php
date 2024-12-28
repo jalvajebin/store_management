@@ -218,16 +218,16 @@
                     <div class="cat-item image-zoom-effect">
                         <div class="image-holder">
                             <a href="{{ route('home.index') }}">
-                                <img src="{{ url('storage/stores/images/' . $store->image_name) }}"
+                                <img src="{{ url('storage/stores/images/' . $store['image_name']) }}"
                                      alt="stores" class="product-image img-fluid">
                             </a>
                         </div>
                         <div class="banner-content py-4">
                             <h5 class="element-title text-uppercase">
-                                <a href="{{ route('home.index') }}" class="item-anchor">{{ $store->name }}</a>
+                                <a href="{{ route('home.index') }}" class="item-anchor">{{ $store['name'] }}</a>
                             </h5>
-                            <p>{{ $store->address }}</p>
-                            <p>{{ round($store->distance, 2) }} KM</p>
+                            <p>{{ $store['address'] }}</p>
+                            <p>{{ round($store['distance'], 2) }} KM</p>
                         </div>
                     </div>
                 </div>

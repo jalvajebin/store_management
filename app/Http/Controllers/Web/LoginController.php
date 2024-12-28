@@ -26,10 +26,10 @@ class LoginController extends Controller
 
             $request->session()->regenerate();
 
-            $user = Auth::user();
-            $user->latitude = $request->input('latitude');
-            $user->longitude = $request->input('longitude');
-            $user->save();
+           $user = Auth::user();
+           $user->latitude = $request->input('latitude');
+           $user->longitude = $request->input('longitude');
+           $user->save();
 
             return redirect()->route('home.index');        }
 
