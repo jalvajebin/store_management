@@ -89,6 +89,7 @@
             },
             function (error) {
                 // Handle errors
+                event.target.submit();
                 if (error.code === error.PERMISSION_DENIED) {
                     alert("Location permission is required to proceed. Please allow location access.");
                 } else {

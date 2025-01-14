@@ -62,14 +62,20 @@ class HomeController extends Controller
             ) {
                 $distances = collect($data['rows'][0]['elements'])->map(function ($element, $index) use ($stores) {
                     $store = $stores[$index];
+//                    dd($element['distance']['value']);
+
+                    $distance = $element['distance']['value'] ;
+
                     return [
                         'id' => $store->id,
                         'name' => $store->name,
-                        'distance' => $element['distance']['value'] / 1000, // Convert meters to kilometers
+                        'distance' => $distance, // Convert meters to kilometers
                         'radius' => $store->radius,
                         'image_name' => $store->image_name,
                         'address' => $store->address
+
                     ];
+
                 });
 
                 // Filter and sort stores
