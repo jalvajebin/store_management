@@ -1,49 +1,53 @@
-# 🛒 Product Listing & Cart System (Laravel)
+# 📍 Location-Based Store Finder & Cart System (Laravel)
 
 ## 📌 Short Description
-A Laravel-based web application that allows users to browse products and add them to a cart, with an admin panel to manage products.
+A Laravel-based web application that allows users to find nearby stores based on location using Google Maps API. Users can browse store products and add items to a cart, while admins can manage store and product data through a backend panel.
 
 ---
 
-## 🚀 Features
+## 🚀 Project Overview
 
-### 👤 User Side
-- View product listings
+This project focuses on implementing distance-based store listing using Google APIs. It combines location services with basic e-commerce functionality, enabling users to discover nearby stores and interact with their products.
+
+---
+
+## ✨ Features
+
+### 📍 Location-Based Store Listing
+- Fetch and display nearby stores using Google Maps API
+- Distance-based filtering of stores
+- Dynamic store listing based on user location
+
+### 🛒 User Features
+- Browse products from selected stores
 - Add products to cart
 - Basic cart functionality
 
 ### 🧑‍💼 Admin Panel
-- Add new products
-- Edit existing products
-- Delete products
-- Manage product details
+- Add and manage store details
+- Manage product listings
+- Update store-related data
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Laravel (PHP)
+- Laravel (PHP Framework)
 - MySQL
+- Google Maps API
 - Blade Templates
-- Bootstrap
-
----
-
-## 📷 Screenshots
-
-(Add 1–2 screenshots here)
-
----
+- JavaScript / jQuery
 
 ## 💡 Key Learnings
 
-- Laravel CRUD operations
-- Basic cart implementation
-- Admin panel development
-- Backend and frontend integration
+- Integration of Google Maps API in Laravel
+- Distance-based data handling
+- Combining location services with product systems
+- Backend-driven data management
+- API handling and frontend interaction
 
 ---
 
 ## 📌 Note
 
-This project was developed as a learning exercise to understand basic e-commerce functionality using Laravel.
+This project was developed as a learning implementation focusing on location-based services and basic e-commerce functionality.
